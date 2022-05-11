@@ -131,7 +131,7 @@ a {
 .social-links a:hover {
   color: var(--primary-color);
   background: var(--neutral-color-dark);
-  transition: 400ms;
+  transition: all 400ms ease-in-out;
 }
 
 .linkedin {
