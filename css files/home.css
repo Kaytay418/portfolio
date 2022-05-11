@@ -25,6 +25,10 @@ h2 {
   font-size: 24px;
 }
 
+header h2 {
+  margin-bottom: 40px;
+}
+
 a {
   text-decoration: none;
 }
@@ -60,13 +64,21 @@ a {
   height: 75vh;
 }
 
-button {
+.contact-btn {
   background: transparent;
   border-radius: 4px;
   border: 2px solid var(--neutral-color-dark);
   color: var(--neutral-color-dark);
-  margin-top: 30px;
   padding: 15px 20px;
+}
+
+.contact-btn:hover {
+  background: var(--neutral-color-dark);
+  border-radius: 4px;
+  border: 2px solid var(--neutral-color-dark);
+  color: var(--primary-color);
+  padding: 15px 20px;
+  transition: 400ms;
 }
 
 .ux-title {
@@ -118,7 +130,8 @@ button {
 
 .social-links a:hover {
   color: var(--primary-color);
-  background: var(--secondary-color);
+  background: var(--neutral-color-dark);
+  transition: 400ms;
 }
 
 .linkedin {
